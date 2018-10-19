@@ -1,0 +1,303 @@
+body {
+	/*font-family: 'Lato', sans-serif;*/
+	/*font-family: 'Nunito Sans', sans-serif;*/
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+	display: flex;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	width: 100%;
+	background-color: #f7fdfe;
+	padding: 27px 0 27px 0;
+	font-weight: 700;
+
+}
+
+.wrapper {
+	width: 960px;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	color: #82868f;
+	margin: auto;
+	
+}
+
+ul {
+	display: flex;
+}
+
+.logo {
+	font-size: 30px;
+}
+
+nav a {
+	color: #82868f;
+	margin-right: 30px;
+	font-size: 14px;
+}
+
+.sign-in_btn {
+	background-color: #0ebfdd;
+	color: #fff;
+	border-radius: 25px;
+	padding: 16px 37px 13px 37px;
+}
+
+.sign-in_btn:hover {
+	background-color: #fff;
+	color: #0ebfdd;
+	transition: 1.5s;
+}
+
+.sign-in_btn:not(:hover){
+	background-color: #0ebfdd;
+	color: #fff;
+	transition: 1.5s;
+}
+
+.top-section {
+	background: url("img/Layer 78.png") center no-repeat;
+	background-size: 100%;
+	height: 600px;
+	z-index: 1;
+	position: relative;
+}
+
+.top-section h1 {
+	position: absolute;
+	bottom: 160px;
+	left: 43.5%;
+	margin: auto;
+	color: #fff;
+	font-size: 42px;
+}
+
+.stars {
+	position: absolute;
+	bottom: 176px;
+	left: 42.4%;
+}
+
+.stars-paragraph {
+	position: absolute;
+	font-size: 20px;
+	text-align: center;
+	bottom: 85px;
+	left: 495px;
+	color: #fff;
+}
+
+.wrapper-second {
+	width: 960px;
+	text-align: center;
+	margin: auto;
+}
+
+.about-section {
+	background-color: #fff;
+	margin-top: 65px;
+}
+
+.about-section h1 {
+	padding-bottom: 35px;
+	color: #0ebfdd;
+	font-weight: 700px;
+	font-size: 40px;
+}
+
+.about-section p {
+	margin-bottom: 75px;
+	color: #82868f;
+	font-size: 20px;
+}
+
+.section-team {
+	width: 100%;
+	background-color: #0ebfdd;
+	margin-top: 65px;
+}
+
+.cards {
+	display: flex;
+	margin: auto;
+	justify-content: space-between;
+	margin-top: 100px;
+}
+
+.photo1 {
+	background: url(img/teammember1.png) center;
+	background-size: cover;
+	width: 175px;
+	height: 175px;
+	border-radius: 50%;
+	margin: 20px auto;
+}
+
+.photo2 {
+	background: url(img/teammember2.png) center;
+	background-size: cover;
+	width: 175px;
+	height: 175px;
+	border-radius: 50%;
+	margin: 20px auto;
+}
+
+.photo3 {
+	background: url(img/teammember3.png) center;
+	background-size: cover;
+	width: 175px;
+	height: 175px;
+	border-radius: 50%;
+	margin: 20px auto;
+}
+
+.name {
+	font-size: 20px;
+	font-weight: 700;
+	color: #fff;
+}
+
+.position {
+	font-size: 16px;
+	font-style: italic;
+	color: #fff;
+}
+
+.card-member {
+	margin: auto 40px;
+}
+
+.section-team h1 {
+	padding-top: 55px;
+	font-size: 40px;
+	color: #fff;
+	font-weight: 700;
+}
+
+.btn-work {
+	margin-top: 100px;
+	padding-bottom: 62px;
+
+}
+.btn-work a {
+	border: 1px solid #fff;
+	border-radius: 35px;
+	padding: 16px 36px 16px 36px;
+	color: #fff;
+}
+
+.btn-work a:hover {
+	border: 1px solid #0ebfdd;
+	background-color: #fff;
+	color: #0ebfdd;
+	transition: 1.5s;
+}
+
+.btn-work a:not(:hover) {
+	border: 1px solid #fff;
+	color: #fff;
+	transition: 1.5s;
+}
+
+.mapanchor {
+	background: url(img/Map.png) center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+}
+
+footer {
+	background-color: #45494d;
+}
+
+.footer-container {
+	width: 960px;
+	margin: auto;
+
+}
+
+.first-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 2px solid #5a5e62;
+
+}
+
+.left-first-footer,
+.right-first-footer {
+	margin-top: 35px;
+	margin-bottom: 32px;
+}
+
+.social-face {
+	position: relative;
+	bottom: 11px;
+	right: 22px;
+}
+
+.social-twit {
+	position: relative;
+	bottom: 11px;
+	right: 28px;
+}
+
+.social-mail {
+	position: relative;
+	bottom: 14px;
+	right: 28px;
+}
+
+.footer-url {
+	color: #9da2a8;
+	font-size: 14px;
+	padding-right: 34px;
+}
+
+.footer-url:hover {
+	color: #515c6e;
+}
+
+.circle2 {
+	padding-left: 10px;
+}
+
+.privacy-terms {
+	padding: 15px 30px 14px 30px;
+	text-align: right;
+	
+}
+
+.privacy-terms a {
+	color: #73767a;
+	font-size: 10px;
+	/*padding: 15px 30px 14px 30px;*/
+}
+
+.privacy-terms a:hover {
+	color: #838589;
+}
+
+.border-span {
+	border-left: 1px solid #73767a;
+	border-right: 1px solid #73767a;
+	margin-right: 15px;
+	margin-left: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
