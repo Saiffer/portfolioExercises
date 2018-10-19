@@ -1,7 +1,7 @@
-# portfolioProjects
-All the projects that I have done since I started learning to code
+# Exercises
+All the exercises that I have done since I started learning to code
 
-Hello, here you can find all projects that i've created since a have started 
+Hello, here you can find all exercises that i've created since a have started 
 learning web development and light my way to web developer job.
 
 Feel free to check all the code in separate folders with one project in each one.
