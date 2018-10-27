@@ -1,0 +1,23 @@
+.logo {
+	display: flex;
+	vertical-align: middle;
+}
+
+.logo p {
+	line-height: 15px;
+	margin-top: 8px;
+}
+
+ul {
+	list-style: none;
+}
+
+ul a {
+	text-decoration: none;
+}
+
+ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
